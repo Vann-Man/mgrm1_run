@@ -9,7 +9,7 @@ echo "CV activated"
 deactivate
 
 echo "Activating UI..."
-flutter-pi --rotation 90 /home/mgrm1/flutter_assets/
+flutter-pi -r 90 -d "155, 86" /home/mgrm1/flutter_assets/
 FLUTTER_UI=$!
 echo "Activated UI"
 deactivate
